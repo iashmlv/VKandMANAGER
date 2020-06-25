@@ -24,7 +24,45 @@ public class Post {
     private boolean favorite;
     private CommentsInfo commentsInfo;
     private GeoLocation geo;
+    private PostSource postSource;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
 
+
+    public PostSource getPostSource() {
+        return postSource;
+    }
+
+    public void setPostSource(PostSource postSource) {
+        this.postSource = postSource;
+    }
+
+    public LikesInfo getLikesInfo() {
+        return likesInfo;
+    }
+
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
+    }
+
+    public RepostsInfo getRepostsInfo() {
+        return repostsInfo;
+    }
+
+    public void setRepostsInfo(RepostsInfo repostsInfo) {
+        this.repostsInfo = repostsInfo;
+    }
+
+    public ViewsInfo getViewsInfo() {
+        return viewsInfo;
+    }
+
+    public void setViewsInfo(ViewsInfo viewsInfo) {
+        this.viewsInfo = viewsInfo;
+    }
+
+    
 
     public long getId() {
         return id;
